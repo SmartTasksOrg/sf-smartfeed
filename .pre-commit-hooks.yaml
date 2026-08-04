@@ -1,0 +1,5 @@
+- id: smartfeed
+  name: SmartFeed
+  entry: smartfeed --demo
+  language: python
+  pass_filenames: false

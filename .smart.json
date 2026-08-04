@@ -1,0 +1,21 @@
+{
+  "family": "Smart*",
+  "tool": "SmartFeed",
+  "version": "3.0.0",
+  "iaiso_section": "\u00a79 \u00b7 Awareness",
+  "share_mode": "public",
+  "cross_promote": [
+    "SmartPangolin",
+    "SmartPrompt",
+    "SmartCheck",
+    "SmartSeal",
+    "SmartStandard",
+    "SmartSim",
+    "SmartMoat",
+    "SmartRoute"
+  ],
+  "links": {
+    "iaiso": "https://iaiso.org",
+    "cloud": "https://smarttasks.cloud"
+  }
+}
