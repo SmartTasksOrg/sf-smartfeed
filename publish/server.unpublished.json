@@ -10,7 +10,7 @@
   "packages": [
     {
       "registryType": "pypi",
-      "identifier": "smartfeed",
+      "identifier": "smarttasks-feed",
       "version": "3.0.0",
       "transport": {
         "type": "stdio"
