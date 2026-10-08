@@ -1,0 +1,38 @@
+{
+  "schema": 1,
+  "repo": "SmartTasksOrg/smartfeed",
+  "checked_on": "2026-10-08",
+  "names": [
+    {
+      "registry": "pypi",
+      "name": "smarttasks-feed",
+      "registered": false,
+      "workflow": "release.yml",
+      "note": "planned name (D1 default); the rename is not done yet"
+    },
+    {
+      "registry": "pypi",
+      "name": "smartfeed",
+      "registered": false,
+      "note": "Fanout's smartfeed, not ours"
+    },
+    {
+      "registry": "mcp",
+      "name": "io.github.smarttasksorg/smartfeed",
+      "registered": false
+    }
+  ],
+  "third_party": {
+    "pypi": [
+      "pip",
+      "build",
+      "pytest"
+    ],
+    "npm": []
+  },
+  "local_images": [],
+  "git_owners": [
+    "SmartTasksOrg"
+  ],
+  "exclude_paths": []
+}
