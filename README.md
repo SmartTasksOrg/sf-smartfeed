@@ -15,8 +15,12 @@ As AI reshapes how we work, a new gap opens: you must stay current across explod
 `distill` at the exact moment the gap bites, and it works the second you clone it
 (a synthetic demo ships in `demo/`).
 
+SmartFeed is not published on PyPI. The PyPI package `smartfeed` is a different project (Fanout); it is not this tool and is not related to it.
+
 ```bash
-pip install smartfeed
+git clone https://github.com/SmartTasksOrg/smartfeed
+cd smartfeed
+python -m pip install .
 smartfeed --demo        # run against the bundled demo
 ```
 
@@ -24,7 +28,7 @@ smartfeed --demo        # run against the bundled demo
 
 | Where you work | How you run it |
 |---|---|
-| **Python** | `pip install smartfeed` |
+| **Python** | from a clone: `python -m pip install .` (not on PyPI yet) |
 | **CI / pre-commit** | add the hook from [`.pre-commit-hooks.yaml`](.pre-commit-hooks.yaml) |
 
 ## What's in this repo
