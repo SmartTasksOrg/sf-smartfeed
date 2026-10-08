@@ -1,5 +1,5 @@
 test:
-	python tests/test_smartfeed.py
+	python -m pytest -q
 demo:
 	python -m sf_smartfeed --demo
 build:
