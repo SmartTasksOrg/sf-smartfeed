@@ -1,24 +1,24 @@
 {
   "schema": 1,
-  "repo": "SmartTasksOrg/smartfeed",
+  "repo": "SmartTasksOrg/sf-smartfeed",
   "checked_on": "2026-10-08",
   "names": [
     {
       "registry": "pypi",
-      "name": "smarttasks-feed",
+      "name": "sf-smartfeed",
       "registered": false,
       "workflow": "release.yml",
-      "note": "planned name (D1 default); the rename is not done yet"
+      "note": "first release pending; README in state A"
     },
     {
       "registry": "pypi",
       "name": "smartfeed",
       "registered": false,
-      "note": "Fanout's smartfeed, not ours"
+      "note": "Fanout's smartfeed, not ours; never install it for this tool"
     },
     {
       "registry": "mcp",
-      "name": "io.github.smarttasksorg/smartfeed",
+      "name": "io.github.smarttasksorg/sf-smartfeed",
       "registered": false
     }
   ],
