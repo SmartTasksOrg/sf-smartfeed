@@ -1,5 +1,5 @@
-- id: smartfeed
+- id: sf-smartfeed
   name: SmartFeed
-  entry: smartfeed --demo
+  entry: sf-smartfeed --demo
   language: python
   pass_filenames: false

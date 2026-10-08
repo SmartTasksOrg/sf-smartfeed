@@ -1,4 +1,4 @@
-from smartfeed import cli
+from sf_smartfeed import cli
 
 def test_demo_runs():
     assert cli.main(["--demo"]) == 0

@@ -1,4 +1,4 @@
-"""SmartFeed CLI — run `smartfeed --demo`."""
+"""SmartFeed CLI — run `sf-smartfeed --demo`."""
 import os, sys, json
 from . import core
 from ._version import __version__

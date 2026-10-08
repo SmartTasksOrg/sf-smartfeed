@@ -1,7 +1,7 @@
 # Using SmartFeed
 
 ```bash
-smartfeed --demo
+sf-smartfeed --demo
 ```
 
 <!-- SMARTTASKS-MODELS:START -->

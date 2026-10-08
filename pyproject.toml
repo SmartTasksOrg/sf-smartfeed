@@ -3,23 +3,23 @@ requires = ["setuptools>=68"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "smartfeed"
+name = "sf-smartfeed"
 version = "3.0.0"
 description = "Distill the firehose. A tight brief of only what moves your work."
 readme = "README.md"
 requires-python = ">=3.10"
 license = { text = "Apache-2.0" }
 authors = [{ name = "SmartTasks Lab" }]
-keywords = ["smart", "ai", "iaiso", "smartfeed", "devtools"]
+keywords = ["smart", "ai", "iaiso", "sf-smartfeed", "devtools"]
 dependencies = []
 
 [project.urls]
 Homepage = "https://smarttasks.cloud"
 Standard = "https://iaiso.org"
-Repository = "https://github.com/SmartTasksOrg/smartfeed"
+Repository = "https://github.com/SmartTasksOrg/sf-smartfeed"
 
 [project.scripts]
-smartfeed = "smartfeed.cli:main"
+sf-smartfeed = "sf_smartfeed.cli:main"
 
 [tool.setuptools.packages.find]
 where = ["src"]
