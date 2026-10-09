@@ -1,2 +1,2 @@
 # SmartFeed demo
-Bundled sample data; `smartfeed --demo` uses built-ins.
+Bundled sample data; `sf-smartfeed --demo` uses built-ins.

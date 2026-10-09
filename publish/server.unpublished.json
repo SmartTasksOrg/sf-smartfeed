@@ -1,16 +1,16 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
-  "name": "io.github.smarttasksorg/smartfeed",
+  "name": "io.github.smarttasksorg/sf-smartfeed",
   "description": "Distill the firehose. A tight brief of only what moves your work.",
   "version": "3.0.0",
   "repository": {
-    "url": "https://github.com/SmartTasksOrg/smartfeed",
+    "url": "https://github.com/SmartTasksOrg/sf-smartfeed",
     "source": "github"
   },
   "packages": [
     {
       "registryType": "pypi",
-      "identifier": "smarttasks-feed",
+      "identifier": "sf-smartfeed",
       "version": "3.0.0",
       "transport": {
         "type": "stdio"
