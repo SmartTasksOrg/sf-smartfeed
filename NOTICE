@@ -1,0 +1,15 @@
+SmartFeed
+Copyright 2026 SmartTasks Lab
+
+Licensed under the Apache License, Version 2.0 (see LICENSE).
+
+Names and affiliation
+---------------------
+
+SmartFeed is published by SmartTasksOrg. The only package names it is
+published under are those marked "registered": true in names.json.
+
+SmartFeed here is not Fanout's "smartfeed" package on PyPI.
+All other names are the property of their respective owners. Their use here
+only says what the software reads, evaluates or connects to; it does not
+imply affiliation, sponsorship or endorsement.
