@@ -46,9 +46,10 @@ sf-smartfeed --demo
 
 ## Status
 
-- **Version 3.0.0, experimental.** A small deterministic command-line tool with a bundled synthetic demo and two smoke tests.
+- **Version 3.0.0, experimental (alpha).** A small deterministic command-line tool with a bundled synthetic demo. The version number does not mean the tool is mature: PyPI classifies it as "Development Status :: 3 - Alpha".
+- **Scope:** `distill()` ranks and de-duplicates a built-in sample stream of eight signals. It does not read real sources yet.
 - **Published:** PyPI `sf-smartfeed` (see Install). Nothing else is published.
-- **Tested:** the 2 smoke tests in `tests/` on Python 3.12, Linux, on every push to master and every pull request (`.github/workflows/ci.yml`).
+- **Tested:** the 6 tests in `tests/` (2 smoke tests of the demo and 4 behaviour tests of `core`, in `tests/test_behaviour.py`) on Python 3.12, Linux, on every push to master and every pull request (`.github/workflows/ci.yml`).
 - **Not tested:** Windows and macOS; Python versions other than 3.12.
 - **Security review:** none independent. Report vulnerabilities as described in [SECURITY.md](SECURITY.md).
 
