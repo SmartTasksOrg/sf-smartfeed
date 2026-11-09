@@ -2,6 +2,15 @@
 
 ## Unreleased
 
+### Added
+- `distill(top, items, min_score=, title_similarity=)` distills your own items; before, it only read the built-in sample stream.
+- Duplicates by normalized URL and by title word overlap; velocity breaks score ties.
+- `Signal` gains optional `title` and `url`; `load_items()` reads JSON, JSONL and CSV with validation.
+- CLI: `sf-smartfeed ITEMS [--top N] [--min-score X] [--json]`.
+
+### Tests
+- `tests/test_behaviour.py` now has 11 behaviour tests covering real input, validation and the CLI.
+
 ### Tests
 - `tests/test_behaviour.py`: 4 behaviour tests of `core` (every rule or formula, edge cases and the fallbacks), next to the 2 smoke tests of the demo.
 

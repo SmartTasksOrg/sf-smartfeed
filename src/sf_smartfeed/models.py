@@ -6,7 +6,9 @@ from dataclasses import dataclass, field
 class Signal:
     source: str
     score: float
-    velocity: float
+    velocity: float = 0.0
+    title: str = ""
+    url: str = ""
 
 @dataclass
 class Brief:
