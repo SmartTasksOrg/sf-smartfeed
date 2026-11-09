@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "sf-smartfeed"
-version = "3.0.0"
+version = "3.1.0"
 description = "Distill the firehose. A tight brief of only what moves your work."
 readme = "README.md"
 requires-python = ">=3.10"

@@ -1,7 +1,7 @@
 {
   "tool": "SmartFeed",
   "package": "smartfeed",
-  "version": "3.0.0",
+  "version": "3.1.0",
   "iaiso_section": "\u00a79 \u00b7 Awareness",
   "rule_prefix": "FEED-*",
   "conforms_to": "https://github.com/SmartTasksOrg/IAIso",
