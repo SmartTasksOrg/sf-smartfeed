@@ -1,6 +1,6 @@
 # Changelog
 
-## Unreleased
+## 3.1.0
 
 ### Added
 - `distill(top, items, min_score=, title_similarity=)` distills your own items; before, it only read the built-in sample stream.
@@ -10,9 +10,6 @@
 
 ### Tests
 - `tests/test_behaviour.py` now has 11 behaviour tests covering real input, validation and the CLI.
-
-### Tests
-- `tests/test_behaviour.py`: 4 behaviour tests of `core` (every rule or formula, edge cases and the fallbacks), next to the 2 smoke tests of the demo.
 
 ### Documentation
 - README "Status": says the tool is an alpha whatever its version number, how many tests it has, and what `core` does and does not do today.
